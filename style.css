@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #2a2438, #5C5470); 
+    color: #fff; /* Set default text color to white */
+}
+header, footer {
+    background-color: #DBD8E3;
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    color: #2a2438; /* Set color to #2a2438 */
+    margin-top: 0; /* Remove default margin */
+}
+nav {
+    background-color: #352F44;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+section {
+    padding: 20px;
+    display: none; 
+}
+/* Set text color of Gallery to white */
+#gallery h2 {
+    color: #fff;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.gallery img {
+    width: 200px; 
+    height: 200px;
+    object-fit: cover; 
+}
+/* Set text color of blog posts to white */
+.blog-post h3,
+.blog-post p {
+    color: #fff;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-form p {
+    margin: 0;
+}
+/* Set text color of contact information to white */
+.contact-form p span {
+    font-weight: bold;
+    color: #fff;
+}
